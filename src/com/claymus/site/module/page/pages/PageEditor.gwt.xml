@@ -1,0 +1,7 @@
+<module rename-to='com.claymus.site.module.page.pages.editor.gwt'>
+
+	<inherits name='com.claymus.site.module.page.PageMain' />
+	<entry-point class='com.claymus.site.module.page.pages.gwt.PageEditor' />
+	<source path='gwt' />
+	
+</module>

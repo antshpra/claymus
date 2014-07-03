@@ -1,0 +1,7 @@
+<module rename-to='com.claymus.site.module.content.pages.manage.gwt'>
+
+	<inherits name='com.claymus.site.module.content.ContentMain' />
+	<entry-point class='com.claymus.site.module.content.pages.gwt.ManageContents' />
+	<source path='gwt' />
+	
+</module>

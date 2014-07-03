@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="1.0">
+
+	<xs:element name="claymus-web-app">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="claymus-homes">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="claymus-home" type="claymus-home" minOccurs="0" maxOccurs="unbounded" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="url-forwarding">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="forward" type="forward" minOccurs="0" maxOccurs="unbounded" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="catch-all" type="catch-all" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="claymus-home">
+		<xs:sequence>
+			<xs:element name="servlet-class" type="xs:string" />
+			<xs:element name="host" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" />
+		<xs:attribute name="namespace" type="xs:string" />
+	</xs:complexType>
+
+	<xs:complexType name="catch-all">
+		<xs:attribute name="action">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="redirect" />
+					<xs:enumeration value="transfer" />
+				</xs:restriction>
+	        </xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="host" type="xs:string" />
+	</xs:complexType>
+
+	<xs:complexType name="forward">
+		<xs:attribute name="name" type="xs:string" />
+		<xs:attribute name="host" type="xs:string" />
+		<xs:attribute name="to" type="xs:string" />
+	</xs:complexType>
+	
+</xs:schema>
+           

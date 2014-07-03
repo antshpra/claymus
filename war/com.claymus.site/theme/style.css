@@ -1,0 +1,359 @@
+/******************************************************************************
+							Style Templates
+******************************************************************************/
+
+.claymus-h1 {
+	padding: 5px 10px;
+	font-size: 20px;
+}
+
+.claymus-h1 button {
+	margin-left: 5px;
+}
+
+.claymus-h2 {
+	padding: 5px 10px;
+	font-size: 18px;
+}
+
+.claymus-h3 {
+	padding: 2px 5px;
+	font-size: 16px;
+}
+
+
+.claymus-t1 {
+	padding: 5px 10px;
+	font-size: 14px;
+}
+
+.claymus-t2 {
+	padding: 5px 10px;
+	font-size: 13px;
+}
+
+.claymus-t3 {
+	padding: 2px 5px;
+	font-size: 12px;
+}
+
+
+.claymus-toolbar {
+	text-align: right;
+}
+
+.claymus-toolbar button {
+	margin-left: 5px;
+}
+
+
+.claymus-formatted-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.claymus-formatted-table tr {}
+
+.claymus-formatted-table tr.odd, .claymus-formatted-table tr:nth-child(odd) {
+	background-color: #f6f6f6;
+}
+
+.claymus-formatted-table tr th {
+	padding: 2px 10px;
+	font-size: 16px;
+	font-weight: normal;
+	background-color: #f3f3f3;
+}
+
+.claymus-formatted-table tr td {
+	padding: 2px 10px;
+	font-size: 14px;
+}
+
+.claymus-formatted-table tr td button {
+	margin-left: 5px;
+}
+
+.claymus-formatted-table tr td a, .claymus-formatted-table tr td a:visited {
+	text-decoration: none;
+}
+
+/******************************************************************************
+						Additional Styles
+******************************************************************************/
+
+.claymus-sub-text {
+	font-size: 11px;
+}
+
+.claymus-sub-text a, .claymus-sub-text a:visited {
+	text-decoration: none;
+}
+
+.claymus-error-text {
+	color: red;
+}
+
+.claymus-faded-text {
+	color:#999;
+}
+
+.claymus-highlighted-text {
+	color: red;
+}
+
+.claymus-required {
+	border-left: 4px solid orange;
+}
+
+.claymus-valid {
+	border-left: 4px solid green;
+}
+
+.claymus-invalid {
+	border: 1px solid red;
+	border-left: 4px solid red;
+}
+
+/******************************************************************************
+					Claymus GWT Modules
+******************************************************************************/
+
+.claymus-gwt-AsyncLoadMsg {
+	position: fixed;
+	top: 2px;
+	width: 100%;
+	height: 0px;
+	text-align: center;
+	z-index: 10000;
+}
+
+.claymus-gwt-AsyncLoadMsg .claymus-h3 {
+	background-color: #f6f6f6;
+	display: inline;
+	padding: 7px 12px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+.claymus-gwt-Alert .dialogTop .dialogTopCenter .dialogTopCenterInner .Caption {
+	font-size: 18px;
+}
+
+.claymus-gwt-Alert .dialogMiddle .dialogMiddleCenter .dialogMiddleCenterInner {
+	min-width: 300px;
+	max-width: 500px;
+}
+
+.claymus-gwt-Alert .dialogMiddle .dialogMiddleCenter .dialogMiddleCenterInner .claymus-t2 {
+	padding: 5px;
+}
+
+.claymus-gwt-Alert .dialogMiddle .dialogMiddleCenter .dialogMiddleCenterInner .claymus-t2 .claymus-toolbar {
+	margin-top: 10px;
+}
+
+
+.claymus-gwt-RichTextArea .claymus-t1 {
+	background-color: #fff;
+}
+
+.claymus-gwt-RichTextArea .claymus-t1 p {
+	margin: 0px;
+	padding: 5px 0px;
+}
+
+
+.claymus-gwt-RoleSelect .gwt-CheckBox {
+	display: block;
+}
+
+/******************************************************************************
+				Claymus GWT Form & Form Fields
+******************************************************************************/
+
+.claymus-gwt-Form {}
+
+
+.claymus-gwt-FormField {
+	margin-bottom: 5px;
+	padding: 2px 9px 5px 6px;
+	background-color: #f6f6f6;
+	border: 1px solid #f3f3f3;
+	border-left: 4px solid #f3f3f3;
+}
+
+.claymus-gwt-Form .claymus-required {
+	border-left: 4px solid orange;
+}
+
+.claymus-gwt-Form .claymus-valid {
+	border-left: 4px solid green;
+}
+
+.claymus-gwt-Form .claymus-invalid {
+	border: 1px solid red;
+	border-left: 4px solid red;
+}
+
+.claymus-gwt-Form .claymus-toolbar {
+	background-color: #f3f3f3;
+	padding: 5px 10px;
+}
+
+
+.claymus-gwt-FormField .claymus-h3 {
+	padding: 0px;
+	margin-bottom: 5px;
+}
+
+
+.claymus-gwt-FormField .claymus-sub-text {
+	margin-top: 3px;
+}
+
+
+.claymus-gwt-FormField-TextBox .gwt-TextBox {
+	margin: 0px;
+	width: 500px;
+}
+
+.claymus-gwt-FormField-TextArea .gwt-TextArea {
+	width: 500px;
+	height: 150px;
+}
+
+.claymus-gwt-FormField-RichTextArea {}
+
+.claymus-gwt-FormField-ListBox .gwt-ListBox {
+	margin: 0px;
+	min-width: 150px;
+}
+
+.claymus-gwt-FormField-RoleSelect {}
+
+.claymus-gwt-FormField-MultiText .claymus-gwt-MultiText {
+	width: 500px;
+	height: 75px;
+}
+
+/******************************************************************************
+						Main Sections in Page
+******************************************************************************/
+
+#claymus-body {}
+
+#claymus-header, #claymus-footer {}
+
+#claymus-container {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#claymus-leftsidebar, #claymus-rightsidebar {
+	width: 185px;
+	padding: 0px;
+	vertical-align: top;
+}
+
+#claymus-middle {
+	padding: 0px;
+	vertical-align: top;
+}
+
+#claymus-beforecontent, #claymus-aftercontent {}
+
+#claymus-pagecontent {}
+
+/******************************************************************************
+							Content Page
+******************************************************************************/
+
+#claymus-Contents {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#claymus-Contents tr td {
+	padding: 0px;
+	vertical-align: top;
+}
+
+
+#claymus-Contents .claymus-Contents-Sortable,
+#claymus-Contents-DISABLED {
+	margin: 0px;
+    padding: 0px;
+	min-height: 32px;
+    border: 1px dashed #999;
+}
+
+#claymus-Contents .claymus-Contents-Sortable li,
+#claymus-Contents-DISABLED li {
+    margin: 5px;
+	border: 2px solid #f3f3f3;
+	background-color: #f6f6f6;
+    list-style: none;
+    cursor: move;
+}
+
+/******************************************************************************
+							Blocks Page
+******************************************************************************/
+
+#claymus-Blocks {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#claymus-Blocks tr td {
+	padding: 0px;
+	vertical-align: top;
+}
+
+
+#claymus-Blocks-HEADER,
+#claymus-Blocks-FOOTER,
+#claymus-Blocks-LEFT_SIDEBAR, 
+#claymus-Blocks-RIGHT_SIDEBAR,
+#claymus-Blocks-BEFORE_CONTENT, 
+#claymus-Blocks-AFTER_CONTENT, 
+#claymus-Blocks-DISABLED {
+	margin: 0px;
+    padding: 0px;
+	min-height: 32px;
+    border: 1px dashed #999;
+}
+
+#claymus-Blocks-LEFT_SIDEBAR {
+	margin: 10px 5px 10px 0px;
+	min-width: 145px;
+}
+
+#claymus-Blocks-RIGHT_SIDEBAR {
+	margin: 10px 0px 10px 5px;
+	min-width: 145px;
+}
+
+#claymus-Blocks-BEFORE_CONTENT,
+#claymus-Blocks-AFTER_CONTENT {
+	margin: 10px 5px;
+	min-width: 220px;
+}
+
+
+#claymus-Blocks-HEADER li,
+#claymus-Blocks-FOOTER li,
+#claymus-Blocks-LEFT_SIDEBAR li, 
+#claymus-Blocks-RIGHT_SIDEBAR li,
+#claymus-Blocks-BEFORE_CONTENT li, 
+#claymus-Blocks-AFTER_CONTENT li, 
+#claymus-Blocks-DISABLED li {
+	margin: 5px;
+	border: 2px solid #f3f3f3;
+	background-color: #f6f6f6;
+    list-style: none;
+    cursor: move;
+}

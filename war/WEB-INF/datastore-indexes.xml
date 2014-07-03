@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore-indexes autoGenerate="false">
+
+	<!-- Indexes used by Claymus  -->
+	
+	<datastore-index kind="Content" ancestor="false" source="manual">
+        <property name="Location" direction="asc"/>
+        <property name="Page" direction="asc"/>
+        <property name="Weight" direction="asc"/>
+    </datastore-index>
+	
+	<datastore-index kind="Content" ancestor="false" source="manual">
+        <property name="Page" direction="asc"/>
+        <property name="Weight" direction="asc"/>
+    </datastore-index>
+	
+    <datastore-index kind="Block" ancestor="false" source="manual">
+        <property name="Location" direction="asc"/>
+        <property name="Weight" direction="asc"/>
+    </datastore-index>
+    
+</datastore-indexes>

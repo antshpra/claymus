@@ -1,0 +1,14 @@
+com.claymus.gwt.ServerException, true, true, false, false, com.claymus.gwt.ServerException/1031834187, 1031834187
+com.claymus.gwt.UserException, true, true, false, false, com.claymus.gwt.UserException/2280024934, 2280024934
+com.claymus.site.module.content.gwt.ContentDTO, true, true, true, true, com.claymus.site.module.content.gwt.ContentDTO/210296060, 210296060
+com.claymus.site.module.content.gwt.ContentService, false, false, false, false, _, 1784169491
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true, true, true, true, com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException/3936916533, 3936916533
+com.google.gwt.user.client.rpc.RpcTokenException, true, true, false, false, com.google.gwt.user.client.rpc.RpcTokenException/2345075298, 2345075298
+com.google.gwt.user.client.rpc.XsrfToken, false, false, true, true, com.google.gwt.user.client.rpc.XsrfToken/4254043109, 4254043109
+java.lang.Exception, true, false, true, false, java.lang.Exception/1920171873, 1920171873
+java.lang.RuntimeException, true, false, true, false, java.lang.RuntimeException/515124647, 515124647
+java.lang.String, true, true, true, true, java.lang.String/2004016611, 2004016611
+[Ljava.lang.String;, true, true, true, true, [Ljava.lang.String;/2600011424, 2600011424
+[[Ljava.lang.String;, true, true, true, true, [[Ljava.lang.String;/4182515373, 4182515373
+java.lang.Throwable, true, false, true, false, java.lang.Throwable/2953622131, 2953622131
+java.util.LinkedList, true, true, true, true, java.util.LinkedList/3953877921, 3953877921

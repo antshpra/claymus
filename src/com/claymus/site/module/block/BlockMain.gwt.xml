@@ -1,0 +1,6 @@
+<module rename-to='com.claymus.site.module.block.gwt'>
+	
+	<inherits name='com.claymus.site.SiteMain'/>
+	<source path='gwt'/>
+	
+</module>

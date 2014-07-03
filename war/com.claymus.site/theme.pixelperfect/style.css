@@ -1,0 +1,82 @@
+body {
+	margin: 0px;
+	background-color: black;
+}
+
+
+/* Main Sections in Page */
+
+#claymus-body {
+	width: 1000px;
+	margin: auto;
+	background-color: #eff;
+}
+
+#claymus-header .claymus-block, #claymus-footer .claymus-block {}
+
+#claymus-container {}
+
+#claymus-leftsidebar {
+	width: 170px;
+}
+
+#claymus-rightsidebar {
+	width: 170px;
+}
+
+#claymus-leftsidebar .claymus-block {
+	margin: 10px;
+	margin-right: 0px;
+}
+
+#claymus-rightsidebar .claymus-block {
+	margin: 10px;
+	margin-left: 0px;
+}
+
+#claymus-middle {}
+	
+#claymus-beforecontent .claymus-block, #claymus-aftercontent .claymus-block {
+	margin: 10px;
+}
+
+#claymus-pagecontent .claymus-content {
+	margin: 10px;
+}
+
+
+/* Page Contents */
+
+.claymus-content {
+	background-color: #fff;
+}
+
+.claymus-content .claymus-h1 {
+	color: #3366CC;
+	background-color: #eee;
+}
+
+.claymus-content .claymus-t1 {
+	color: #555;
+}
+
+.claymus-content .claymus-t1 p {
+	margin: 0px 0px 10px 0px;
+}
+
+
+/* Page Blocks */
+
+.claymus-block .claymus-h2 {
+	color: #33CC66;
+	background-color: #ffe;
+}
+
+.claymus-block .claymus-t2 {
+	color: #555;
+	background-color: #fff;
+}
+
+.claymus-block .claymus-t2 p {
+	margin: 0px 0px 10px 0px;
+}

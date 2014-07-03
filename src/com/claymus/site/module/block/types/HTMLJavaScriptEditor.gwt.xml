@@ -1,0 +1,7 @@
+<module rename-to='com.claymus.site.module.block.types.htmljavascript.gwt'>
+	
+	<inherits name='com.claymus.site.module.block.BlockMain'/>
+	<entry-point class='com.claymus.site.module.block.types.gwt.HTMLJavaScript'/>
+	<source path='gwt'/>
+	
+</module>

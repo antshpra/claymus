@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<claymus-web-app>
+
+	<claymus-homes>
+		<claymus-home name="My Website" namespace="www">
+			<servlet-class>com.claymus.site.SiteMain</servlet-class>
+			<host>www.mydomain.com</host>
+		</claymus-home>
+	</claymus-homes>
+	
+	<catch-all action="transfer" host="www.mydomain.com" />
+	
+</claymus-web-app>

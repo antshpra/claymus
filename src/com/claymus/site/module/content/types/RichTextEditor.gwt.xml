@@ -1,0 +1,7 @@
+<module rename-to='com.claymus.site.module.content.types.richtext.gwt'>
+	
+	<inherits name='com.claymus.site.module.content.ContentMain'/>
+	<entry-point class='com.claymus.site.module.content.types.gwt.RichText'/>
+	<source path='gwt'/>
+	
+</module>

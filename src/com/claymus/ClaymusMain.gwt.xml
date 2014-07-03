@@ -1,0 +1,6 @@
+<module rename-to='com.claymus.gwt'>
+	
+	<inherits name='com.google.gwt.user.User'/>
+	<source path='gwt'/>
+	
+</module>
